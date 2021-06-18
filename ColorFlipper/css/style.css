@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;  
+    height: 100vh;
+}
+
+.nav-center {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+   background-color:#73a6e9;  
+}
+
+.nav-center h3 {
+    padding: 1rem 0;
+}
+
+.nav-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #2b6ec5;
+}
+
+.nav-links li {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.nav-links li a:hover{
+    background-color: rgb(131, 214, 235);
+    padding: 1rem;
+}
+
+main {
+    height: 80%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height: 100%;
+}
+
+.container h2 {
+    background-color: #333;
+    color: #ddd;
+    padding: 1.3rem;
+    text-transform: capitalize;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.btn 
+{
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    font-weight:600;
+}
+
+.btn:hover {
+    cursor:pointer;
+}
+
+.btn-hero {
+    background-color: transparent;
+    border:3px solid #000;
+}
